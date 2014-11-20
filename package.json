@@ -1,7 +1,7 @@
 {
   "name": "hubot-whois",
   "description": "A hubot script that tells you more information about a domain name.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "robksawyer <robksawyer@gmail.com>",
   "license": "MIT",
   "keywords": [

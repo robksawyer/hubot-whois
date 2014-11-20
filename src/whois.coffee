@@ -12,7 +12,7 @@
 # Author:
 #   robksawyer[@<org>]
 
-var whois = require('node-whois')
+whois = require('node-whois')
 
 module.exports = (robot) ->
 
@@ -20,5 +20,8 @@ module.exports = (robot) ->
   # Check a domain name on namecheap
   #
   robot.respond /whois (.*)/, (msg) ->
+
     whois.lookup msg.match[1], (err, data) ->
+      if err 
+        msg.send err
       msg.send data

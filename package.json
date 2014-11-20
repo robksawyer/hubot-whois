@@ -1,0 +1,35 @@
+{
+  "name": "hubot-whois",
+  "description": "A hubot script that tells you more information about a domain name.",
+  "version": "0.0.0",
+  "author": "robksawyer <robksawyer@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "whois"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hubot-scripts/hubot-whois.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hubot-scripts/hubot-whois/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6",
+    "node-whois": "^2.1.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-release": "~0.6.0",
+    "matchdep": "~0.1.2",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "grunt test"
+  }
+}

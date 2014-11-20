@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "coffee-script": "~1.6",
-    "node-whois": "^2.1.0"
+    "node-whois": "~2.1.0"
   },
   "devDependencies": {
     "mocha": "*",

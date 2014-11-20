@@ -4,7 +4,7 @@
 # Configuration:
 #
 # Commands:
-#   hubot whois - <what the respond trigger does>
+#   hubot whois google.com - <what the respond trigger does>
 #
 # Notes:
 #   <optional notes required for the script>

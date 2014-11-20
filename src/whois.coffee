@@ -19,7 +19,7 @@ module.exports = (robot) ->
   #
   # Check a domain name on namecheap
   #
-  robot.respond /whois (.*)/, (msg) ->
+  robot.respond /whois (.*)/i, (msg) ->
 
     whois.lookup msg.match[1], (err, data) ->
       if err 
